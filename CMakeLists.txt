@@ -44,7 +44,7 @@ cmake_dependent_option(CAF_ENABLE_OPENSSL_MODULE "Build OpenSSL module" ON
 
 # -- CAF options with non-boolean values ---------------------------------------
 
-set(CAF_LOG_LEVEL "QUIET" CACHE STRING "Set log verbosity of CAF components")
+set(CAF_LOG_LEVEL "TRACE" CACHE STRING "Set log verbosity of CAF components")
 set(CAF_EXCLUDE_TESTS "" CACHE STRING "List of excluded test suites")
 set(CAF_SANITIZERS "" CACHE STRING
     "Comma separated sanitizers, e.g., 'address,undefined'")
